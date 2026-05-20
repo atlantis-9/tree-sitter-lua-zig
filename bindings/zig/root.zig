@@ -1,5 +1,5 @@
-extern fn tree_sitter_c() callconv(.c) *const anyopaque;
+extern fn tree_sitter_lua() callconv(.c) *const anyopaque;
 
 pub fn language() *const anyopaque {
-    return tree_sitter_c();
+    return tree_sitter_lua();
 }
